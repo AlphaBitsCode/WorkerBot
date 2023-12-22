@@ -1,0 +1,2 @@
+/* Copyright (C) 2023 by WorkerBot.AI */
+!function r(e,n,o){function t(u,f){if(!n[u]){if(!e[u]){var c="function"==typeof require&&require;if(!f&&c)return c(u,!0);if(i)return i(u,!0);var l=new Error("Cannot find module '"+u+"'");throw l.code="MODULE_NOT_FOUND",l}var p=n[u]={exports:{}};e[u][0].call(p.exports,(function(r){return t(e[u][1][r]||r)}),p,p.exports,r,e,n,o)}return n[u].exports}for(var i="function"==typeof require&&require,u=0;u<o.length;u++)t(o[u]);return t}({1:[function(r,e,n){"use strict";console.log("'Allo 'Allo! Option")},{}]},{},[1]);

@@ -1,0 +1,2 @@
+/* Copyright (C) 2023 by WorkerBot.AI */
+ace.define("ace/snippets/fsl",["require","exports","module"],(function(e,o,t){"use strict";o.snippetText=void 0,o.scope=""})),ace.require(["ace/snippets/fsl"],(function(e){"object"==typeof module&&"object"==typeof exports&&module&&(module.exports=e)}));

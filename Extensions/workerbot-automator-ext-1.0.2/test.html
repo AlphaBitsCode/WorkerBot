@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+        Set focus to HTML form element 
+    </title> 
+</head> 
+  
+<body> 
+    <p> 
+        Click on button to focus 
+        on the input field. 
+    </p> 
+      
+    <form> 
+        <input type="text" id="input1"> 
+          
+        <br><br> 
+          
+        <button type="button" onclick="focusInput()"> 
+            Focus 
+        </button> 
+          
+        <button type="button" onclick="blurInput()"> 
+            Blur 
+        </button> 
+    </form> 
+      
+    <script> 
+        setTimeout(function() { 
+            document.getElementById("input1").focus(); 
+        }, 5000);
+        function focusInput() { 
+            document.getElementById("input1").focus(); 
+        } 
+        function blurInput() { 
+            document.getElementById("input1").blur(); 
+        } 
+    </script> 
+</body> 
+  
+</html> 
